@@ -1,0 +1,101 @@
+.morpion{
+    display: flex;
+    border-collapse: collapse;
+    border: blue;
+    justify-content: center;;
+}
+.morpion table{
+    display: grid;
+    border: 1px;
+    border: collapse;
+    text-align: center;
+    font-size: 4rem;
+}
+.carre{
+    width: 100px;
+    height: 100px;
+}
+
+.resultat{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+/*Cases*/
+#Zonea1 {
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+#Zonea2 {
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+    border-left: solid 2px black;
+}
+
+#Zonea3 {
+    border-bottom: solid 2px black;
+    border-left: solid 2px black;
+}
+
+#Zoneb1 {
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+    border-top: solid 2px black;
+}
+
+#Zoneb2 {
+    border: solid 2px black;
+
+}
+
+#Zoneb3 {
+    border-left: solid 2px black;
+    border-bottom: solid 2px black;
+    border-top: solid 2px black;
+}
+
+#Zonec1 {
+    border-right: solid 2px black;
+    border-top: solid 2px black;
+}
+
+#Zonec2 {
+    border-right: solid 2px black;
+    border-left: solid 2px black;
+    border-top: solid 2px black;
+
+}
+
+#Zonec3 {
+    border-left: solid 2px black;
+    border-top: solid 2px black;
+}
+h1{
+    color: black;
+    text-align: center;
+    margin-top: 0;
+}
+body{
+    background-color:#7289da;
+}
+.resultat table {
+    border-color: aqua;
+    border-style: solid;
+}
+.resultat table td{
+    border: black 1px solid;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-collapse: collapse;
+}
+.button{
+    text-align: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+h2{
+    text-align: center;
+}

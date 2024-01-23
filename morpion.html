@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="Fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/imgs/icon.ico" type="image/ico" />
+    <link rel="stylesheet" href="jeu.css" />
+    <title>Jeu du Morpion - Axel E</title>
+  </head>
+  <body style="background: linear-gradient(109.6deg, rgb(252, 255, 26) 34.9%, rgb(66, 240, 233) 82.5%);">
+    <h1>Jeu du Morpion en JavaScript</h1>
+    <div class="morpion">
+      <table>
+        <tr>
+          <td class="carre" id="Zonea1"></td>
+          <td class="carre" id="Zonea2"></td>
+          <td class="carre" id="Zonea3"></td>
+        </tr>
+        <tr>
+          <td class="carre" id="Zoneb1"></td>
+          <td class="carre" id="Zoneb2"></td>
+          <td class="carre" id="Zoneb3"></td>
+        </tr>
+        <tr>
+          <td class="carre" id="Zonec1"></td>
+          <td class="carre" id="Zonec2"></td>
+          <td class="carre" id="Zonec3"></td>
+        </tr>
+      </table>
+    </div>
+    <aside>
+      <div class="button">
+        <button onclick="reset()">Nouvelle partie</button>
+      </div>
+    </aside>
+    <div class="resultat">
+      <table>
+        <tr>
+          <td>Victoires de ❌</td>
+          <td>Victoires de ⭕</td>
+          <td>Match nul</td>
+       </tr>
+        <tr>
+          <td><p id="winX">0</p></td>
+          <td><p id="winO">0</p></td>
+          <td><p id="drawhtml">0</p></td>
+        </tr>
+    </table>
+    </div>
+    <h2 id="h1"></h2>
+
+    <script src="../assets/Js/morpion.js"></script>
+  </body>
+</html>
